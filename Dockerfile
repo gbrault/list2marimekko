@@ -81,4 +81,9 @@ RUN jupyter lab build --minimize=False --dev-build=False
      
 RUN conda clean --all -f -y
 
-ADD Power /home/jovyan/work
+ADD Power /home/jovyan/work/Power
+
+USER root
+RUN chown -R jovyan:users /home/jovyan/work/Power
+
+USER $NB_USER
