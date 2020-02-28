@@ -1,7 +1,7 @@
 # list2marimekko
 generating business graphs from data list
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gbrault/list2marimekko/master?filepath=Power%2FPower.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gbrault/list2marimekko/master)
 
 Create a powerpoint slide given a data list see the Power example
 ```
