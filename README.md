@@ -11,6 +11,7 @@ generating business graphs from data list
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gbrault/list2marimekko.git/master)
 
 Create a powerpoint slide given a data list see the Power example
+
 |index|TWh 2017 EIA|Attribut|Share|
 |0|Australia|Coal|162|
 |1|Brazil|Renewables|466|
@@ -20,4 +21,5 @@ Create a powerpoint slide given a data list see the Power example
 |5|China|Natural gas|183|
 |6|China|Renewables|1662|
 |7|China|Nuclear|248|
+
 ![alttext](Power.png)
