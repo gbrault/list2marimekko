@@ -1,5 +1,6 @@
 FROM jupyter/scipy-notebook
 
+USER root
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update \
