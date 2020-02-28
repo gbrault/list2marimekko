@@ -80,3 +80,5 @@ RUN pip install --upgrade jupyterlab-git
 RUN jupyter lab build --minimize=False --dev-build=False
      
 RUN conda clean --all -f -y
+
+ADD Power /home/jovyan/work
