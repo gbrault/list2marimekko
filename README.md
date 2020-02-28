@@ -14,6 +14,7 @@ Create a powerpoint slide given a data list see the Power example
 | 5     | China        | Natural gas | 183   |
 | 6     | China        | Renewables  | 1662  |
 | 7     | China        | Nuclear     | 248   |
+.....
 ```
 
 ![alttext](Power.png)
