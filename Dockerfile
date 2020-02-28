@@ -45,7 +45,7 @@ RUN pip install pdfminer.six
 RUN pip install bqplot==0.12.2
 
 RUN conda install --quiet --yes \
-     'python-pptx'
+     'python-pptx' \
      'pandas-datareader' \
      'memory_profiler' \
      'line_profiler' \
