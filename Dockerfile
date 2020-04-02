@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:f3da74a3da1e
 
 USER root
 ENV DEBIAN_FRONTEND noninteractive
