@@ -39,7 +39,7 @@ RUN pip install --no-deps git+https://github.com/innovationOUtside/ipython_magic
 RUN pip install git+https://github.com/psychemedia/eralchemy.git
 RUN pip install git+https://github.com/b3b/ipython-restmagic
 RUN pip install git+https://github.com/gbrault/ipython-sql.git
-RUN pip install qgrid
+RUN pip install qgrid==1.1.1
 RUN git clone --depth=1 https://github.com/gbrault/qgrid qgrid.git
 RUN pip install jupyterlab_sql
 RUN pip install pdfminer.six
