@@ -44,8 +44,7 @@ RUN pip install jupyterlab_sql
 RUN pip install pdfminer.six
 RUN pip install bqplot==0.12.2
 
-RUN conda install --quiet --yes \
-     'python-pptx' \
+RUN pip install 'python-pptx' \
      'pandas-datareader' \
      'memory_profiler' \
      'line_profiler' \
@@ -53,17 +52,16 @@ RUN conda install --quiet --yes \
      'python-graphviz' \
      'openpyxl'
 
-RUN conda install --quiet --yes -c conda-forge \
-     'voila' \
+RUN conda pip 'voila' \
      'version_information' \
      'wikipedia' \
      'sparqlwrapper' \
      'imagemagick' \
      'ipysheet'
 
-RUN conda install --quiet --yes -c bokeh jupyter_bokeh
+RUN pip install jupyter_bokeh
 
-RUN conda install --quiet --yes -c phlya adjusttext
+RUN pip install adjusttext
 
 RUN jupyter labextension install --no-build @jupyter-widgets/jupyterlab-manager
 RUN jupyter labextension install --no-build qgrid.git/js/
@@ -79,7 +77,7 @@ RUN jupyter labextension install --no-build @bokeh/jupyter_bokeh
 RUN pip install --upgrade jupyterlab-git
 RUN jupyter lab build --minimize=False --dev-build=False
      
-RUN conda clean --all -f -y
+#RUN conda clean --all -f -y
 
 ADD Power /home/jovyan/work/Power
 
