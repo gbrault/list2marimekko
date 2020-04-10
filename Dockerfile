@@ -50,11 +50,10 @@ RUN pip install 'python-pptx' \
      'memory_profiler' \
      'line_profiler' \
      'graphviz' \
-     'openpyxl'
-
-RUN conda pip 'voila' \
+     'openpyxl' \
      'version_information' \
      'wikipedia' \
+     'voila' \
      'sparqlwrapper' \
      'imagemagick' \
      'ipysheet'
