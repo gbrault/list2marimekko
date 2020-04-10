@@ -23,7 +23,8 @@ RUN apt-get update \
         libsasl2-dev \
         xterm \
         sqlite3 \
-        libsqlite3-dev
+        libsqlite3-dev \
+	graphiz
 
 # install scipy-notebook "extensions"
 USER $NB_USER
@@ -49,7 +50,6 @@ RUN pip install 'python-pptx' \
      'memory_profiler' \
      'line_profiler' \
      'graphviz' \
-     'python-graphviz' \
      'openpyxl'
 
 RUN conda pip 'voila' \
