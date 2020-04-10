@@ -55,7 +55,6 @@ RUN pip install 'python-pptx' \
      'wikipedia' \
      'voila' \
      'sparqlwrapper' \
-     'imagemagick' \
      'ipysheet'
 
 RUN pip install jupyter_bokeh
