@@ -44,6 +44,7 @@ RUN git clone --depth=1 https://github.com/gbrault/qgrid qgrid.git
 RUN pip install jupyterlab_sql
 RUN pip install pdfminer.six
 RUN pip install bqplot==0.12.2
+RUN pip install pandas==0.25.3
 
 RUN pip install 'python-pptx' \
      'pandas-datareader' \
