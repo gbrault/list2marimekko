@@ -20,11 +20,11 @@ RUN apt-get update \
 		jq \
 		libirrlicht-dev \
 		openssh-client \
-        libsasl2-dev \
-        xterm \
-        sqlite3 \
-        libsqlite3-dev \
-	graphviz
+                libsasl2-dev \
+                sqlite3 \
+                libsqlite3-dev \
+		imagemagick \
+	        graphviz
 
 # install scipy-notebook "extensions"
 USER $NB_USER
