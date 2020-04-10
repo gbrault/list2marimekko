@@ -24,7 +24,7 @@ RUN apt-get update \
         xterm \
         sqlite3 \
         libsqlite3-dev \
-	graphiz
+	graphviz
 
 # install scipy-notebook "extensions"
 USER $NB_USER
